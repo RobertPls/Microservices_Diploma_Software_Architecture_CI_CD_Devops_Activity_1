@@ -1,0 +1,7 @@
+export default {
+	extends: ['@commitlint/config-conventional'],
+	defaultIgnores: false,
+	rules: {
+		'scope-empty': [2, 'never'],
+	},
+};

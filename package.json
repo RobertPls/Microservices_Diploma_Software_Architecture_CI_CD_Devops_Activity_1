@@ -1,0 +1,23 @@
+{
+	"name": "modulo-cicd-actividad1",
+	"version": "1.0.0",
+	"description": "Actividad 1 CI/CD - backend Express con hooks y linting",
+	"main": "backend/src/index.js",
+	"scripts": {
+		"prepare": "husky",
+		"test": "cd backend && npm test"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"devDependencies": {
+		"@commitlint/cli": "^21.2.4",
+		"@commitlint/config-conventional": "^21.2.4",
+		"eslint": "^10.14.0",
+		"eslint-plugin-sonarjs": "^4.2.2",
+		"husky": "^9.1.7",
+		"lint-staged": "^17.6.0",
+		"prettier": "^3.9.10"
+	}
+}
