@@ -3,5 +3,3 @@ coverage/
 .env
 dist/
 *.log
-inventory-project/**/obj/
-inventory-project/**/bin/
